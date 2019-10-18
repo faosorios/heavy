@@ -1,4 +1,4 @@
-# heavy: Robust estimation using heavy-tailed distributions
+# Robust estimation using heavy-tailed distributions
 
 [![CRAN status](http://www.r-pkg.org/badges/version/heavy)](https://cran.r-project.org/package=heavy)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/heavy)](https://cran.r-project.org/package=heavy)
