@@ -1,0 +1,13 @@
+Package: heavy
+Version: 0.38.196
+Title: Robust Estimation Using Heavy-Tailed Distributions
+Description: Functions to perform robust estimation considering heavy-tailed distributions.
+    Currently, the package includes routines for linear regression, linear mixed-effect
+    models, Grubbs' model, multivariate location and scatter estimation, multivariate
+    regression, penalized splines, random variate generation and some support functions.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://heavy.mat.utfsm.cl
+NeedsCompilation: yes
+Author: Felipe Osorio
+Maintainer: Felipe Osorio <felipe.osorios@usm.cl>

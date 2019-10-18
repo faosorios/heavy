@@ -1,0 +1,36 @@
+useDynLib(heavy, .registration = TRUE)
+
+## base packages
+importFrom("stats",
+           .getXlevels, asOneSidedFormula, complete.cases, cov2cor, cov.wt, lsfit,
+           model.frame, model.matrix, model.response, na.fail, na.omit, pnorm,
+           quantile, terms, var)
+
+## Our Exports:
+export(Cauchy, contaminated, dtgamma, normal, slash, Student, heavy.control,
+       heavy.family, heavyFit, heavyGrubbs, heavyLm, heavyLm.fit, heavyLme,
+       heavyMLm.fit, heavyPS, pgamma.deriv, ptgamma, qtgamma, rmCauchy, rmcnorm,
+       rmnorm, rmslash, rmt, rsphere, rtgamma)
+
+# Exported S3 methods
+export(heavyLme.formula)
+
+## Register S3 methods
+S3method(heavyLme, formula)
+S3method(print, heavy.family)
+S3method(print, heavyFit)
+S3method(print, heavyGrubbs)
+S3method(print, heavyLm)
+S3method(print, heavyLme)
+S3method(print, heavyMLm)
+S3method(print, heavyPS)
+S3method(print, summary.heavyFit)
+S3method(print, summary.heavyLm)
+S3method(print, summary.heavyLme)
+S3method(print, summary.heavyMLm)
+S3method(print, summary.heavyPS)
+S3method(summary, heavyFit)
+S3method(summary, heavyLm)
+S3method(summary, heavyLme)
+S3method(summary, heavyMLm)
+S3method(summary, heavyPS)

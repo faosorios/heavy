@@ -1,0 +1,84 @@
+0.38.196 (Oct 18, 2019)
+	* An issue in the internal C code to parameter estimation performed by heavyLme
+		was fixed (thanks to Manuel Galea for reporting this bug).
+	* Added a new function heavyGrubbs for estimation in the Grubbs model using
+		thick-tailed distributions (see Osorio, Paula and Galea 2009, CSDA 53, 1249-1263,
+		doi: 10.1016/j.csda.2008.10.034).
+	* Added thermocouples dataset.
+
+0.38.19 (Feb 13, 2018)
+	* Now underlying code for location-Scatter estimation is based on an online
+		algorithm (previously a 2-pass algorithm was used).
+	* Added routine to compute the 1st and 2nd derivatives of the regularized
+		incomplete gamma function.
+
+0.38.1 (Apr 5, 2017)
+	* Added routines to evaluate density, cumulative distribution, quantile functions
+		and generation of random deviates from the right truncated gamma distribution.
+
+0.38 (Jul 7, 2016)
+	* Fixed bug on the output of heavyLm in the case of multivariate responses
+		with only one regressor variable (thanks to Maria de los Angeles Villena
+		for reporting this issue).
+	* Corrected error in estimation procedure in heavyLme when the number of
+		observations per subject (group) is insuficient to obtain the estimators
+		(pointed out by Ailis Mone, Joffrey Jouma'a and Juvencio Nobre).
+	* Added fitter functions heavyLm.fit and heavyMLm.fit for linear regression
+		models.
+	* Recoded functions for matrix computations using LAPACK entry points.
+
+0.3 (Mar 21, 2016)
+	* Feature added to heavyLm function in order to handle multivariate linear
+		regression models.
+	* Corrected error in computation of penalty term of P-splines smoothing.
+	* C code of Brent's method for unidimensional minimization was recrafted
+		from 'localmin' ALGOL procedure described in Brent (1973), Algorithms
+		for Minimization Without Derivatives, Dover, New York, pp. 79-80 and
+		188-190.
+	* Changes to NAMESPACE file to compliance with new guidelines described
+		in 'Writing R Extensions' Section 1.5.
+	* Added dialyzer dataset and examples.
+
+0.2-35 (Sep 1, 2014)
+	* Added heavyFit function for the estimation of the location and scatter
+		matrix using multivariate heavy-tailed distributions
+	* Added S3 print and summary methods for heavyFit objects
+	* Added creatinine dataset and examples
+
+0.2-3 (Mar 22, 2013)
+	* Added a new function heavyPS for smoothing using P-splines considering
+		thick-tailed distributions (as described in Osorio 2016, AISM 68, 589-619,
+		doi: 10.1007/s10463-015-0506-0)
+	* Added S3 methods for print and summary for heavyPS objects
+	* Added estimation of the shape parameters for the Student-t and slash
+		distributions
+	* Unidimensional optimizer required for the shape parameter estimation use
+		the	Brent's method taken from extracted from R-2.15.3 (since R 3.0.0
+		several non-API entry points like Brent_fmin, see appl/fmin.c file, are
+		no longer available)
+	* Added functions for multivariate random number generation considering
+		gaussian (normal), Student-t, slash, contaminated normal and the uniform
+		distribution on the p-dimensional sphere distributions (underlying code
+		was written in C to ensure a reasonable computational speed)
+	* Added life dataset and examples
+	* Removed l1fit function (which since April 4, 2015 this function is available
+		in L1pack) and housePrice dataset
+	* Now QR decomposition/operations and SVD decomposition are based in Linpack
+	  entry points
+
+0.2 (Jan 3, 2011)
+	* Recoded linear algebra operations in order to use the LAPACK entry points
+		available from R
+	* heavy.lme function was renamed as heavyLme
+	* Added heavyLm function for estimation in (univariate) linear regression
+	* Added l1fit function for L1 estimation in linear regression (using a
+		slight modification of Barrodale and Roberts Fortran code)
+	* Fixed error when computing fitted values and residuals by heavyLme
+		function
+	* Added S3 print and summary methods for heavyLm and heavyLme
+	* Added cyt, ereturns and housePrices data and examples
+	* Added information about citation of heavy package
+	* Several code cleanups, reduced data movement in some matrix computations
+
+0.1-1 (Dec 15, 2009)
+	* Initial release of the heavy package on CRAN
