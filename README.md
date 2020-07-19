@@ -47,6 +47,11 @@ Next, you can load the package by using the command: `library(heavy)`
 
 The package is provided under the [GPL](https://www.r-project.org/Licenses/). HEAVY is under active development: new features are being added and old features are being improved. Although the developer will make efforts to preserve backward compatibility, we cannot absolutely guarantee backward compatibility.
 
+### To cite the heavy package in publications use:
+
+Osorio, F. (2019). heavy: Robust estimation using heavy-tailed distributions. R package version 0.38.196.\
+URL: [CRAN.R-project.org/package=heavy](https://CRAN.R-project.org/package=heavy)
+
 Author: Felipe Osorio.
 
 Project webpage: http://heavy.mat.utfsm.cl
