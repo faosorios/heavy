@@ -29,6 +29,20 @@ Latest binaries and sources for HEAVY are availables from [CRAN package reposito
 * [heavy_0.38.196.tgz](https://cran.r-project.org/bin/macosx/contrib/4.0/heavy_0.38.196.tgz) - Mac OS binaries (R-release)
 * [heavy.pdf](https://cran.r-project.org/web/packages/heavy/heavy.pdf) - Reference Manual
 
+## Installation instructions
+
+To install this package, start R and enter:
+```R
+install.packages("heavy")
+```
+
+Alternatively, you can download the source as a tarball or as a zip file. Unpack this file (thereby creating a directory named, heavy) and install the package source by executing (at the console prompt)
+```
+R CMD INSTALL heavy
+```
+
+Next, you can load the package by using the command: `library(heavy)`
+
 Author: Felipe Osorio.
 
 Project webpage: http://heavy.mat.utfsm.cl
