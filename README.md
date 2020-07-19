@@ -32,7 +32,7 @@ Latest binaries and sources for HEAVY are availables from [CRAN package reposito
 ## Installation instructions
 
 To install this package, start R and enter:
-```R
+```
 install.packages("heavy")
 ```
 
@@ -42,6 +42,10 @@ R CMD INSTALL heavy
 ```
 
 Next, you can load the package by using the command: `library(heavy)`
+
+## Disclaimer
+
+The package is provided under the [GPL](https://www.r-project.org/Licenses/). HEAVY is under active development: new features are being added and old features are being improved. Although the developer will make efforts to preserve backward compatibility, we cannot absolutely guarantee backward compatibility.
 
 Author: Felipe Osorio.
 
