@@ -58,6 +58,13 @@ URL: [CRAN.R-project.org/package=heavy](https://CRAN.R-project.org/package=heavy
 * Osorio, F. (2016). Influence diagnostics for robust P-splines using scale mixture of normal distributions. [*Annals of the Institute of Statistical Mathematics*](https://doi.org/10.1007/s10463-015-0506-0) **68**, 589-619.
 * Singer, J.M., Rocha, F.M.M., Nobre, J.S. (2016). Graphical tools for detecting departures from linear mixed model assumptions and some remedial measures. [*International Statistical Review*](https://doi.org/10.1111/insr.12178) **85**, 290-324.
 
+## About the Author
+
+I'm Assistant Professor at [Department of Mathematics](http://www.mat.utfsm.cl/) of the [Universidad Tecnica Federico Santa Maria](http://www.usm.cl/), Chile.
+
+* Webpage: [fosorios.mat.utfsm.cl](http://fosorios.mat.utfsm.cl/)
+* Email: [felipe.osorios AT usm.cl](mailto:felipe.osorios@usm.cl)
+
 Author: Felipe Osorio.
 
 Project webpage: http://heavy.mat.utfsm.cl
