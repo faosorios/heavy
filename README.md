@@ -22,7 +22,7 @@ Please report any bugs/suggestions/improvements to [Felipe Osorio](mailto:felipe
 
 ## Resources
 
-Latest binaries and sources for HEAVY are availables from CRAN package repository
+Latest binaries and sources for HEAVY are availables from [CRAN package repository](https://cran.r-project.org/package=heavy)
 
 * [heavy_0.38.196.tar.gz](https://cran.r-project.org/src/contrib/heavy_0.38.196.tar.gz) - Package sources
 * [heavy_0.38.196.zip](https://cran.r-project.org/bin/windows/contrib/4.0/heavy_0.38.196.zip) - Windows binaries (R-release)
