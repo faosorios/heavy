@@ -9,7 +9,7 @@ The HEAVY package contains routines to perform robust estimation considering hea
 
 * Provide basic functionality for modeling using scale mixtures of normal distributions in R, via a package.
 * Calculations associated with parameter estimation are performed by calling routines in C and Fortran.
-* Estimation in linear regression, linear mixed effects models, multivariate regression and penalized splines using the EM algorithm.
+* Estimation in linear regression, linear mixed effects models, Grubbs' model, multivariate regression and penalized splines using the EM algorithm.
 * Estimation of location and Scatter using multivariate heavy-tailed distributions.
 * Implemented families: normal, Cauchy, Student-t, slash and contaminated normal.
 * Estimation of the shape parameters for Student-t and slash distributions.
@@ -19,6 +19,15 @@ The HEAVY package contains routines to perform robust estimation considering hea
 ## Providing Feedback
 
 Please report any bugs/suggestions/improvements to [Felipe Osorio](mailto:felipe.osorios@usm.cl), [Universidad Tecnica Federico Santa Maria](http://www.usm.cl). If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
+
+## Resources
+
+Latest binaries and sources for HEAVY are availables from CRAN package repository
+
+* [heavy_0.38.196.tar.gz](https://cran.r-project.org/src/contrib/heavy_0.38.196.tar.gz) - Package sources
+* [heavy_0.38.196.zip](https://cran.r-project.org/bin/windows/contrib/4.0/heavy_0.38.196.zip) - Windows binaries (R-release)
+* [heavy_0.38.196.tgz](https://cran.r-project.org/bin/macosx/contrib/4.0/heavy_0.38.196.tgz) - Mac OS binaries (R-release)
+* [heavy.pdf](https://cran.r-project.org/web/packages/heavy/heavy.pdf) - Reference Manual
 
 Author: Felipe Osorio.
 
