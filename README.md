@@ -65,8 +65,8 @@ I'm Assistant Professor at [Department of Mathematics](http://www.mat.utfsm.cl/)
 * Webpage: [fosorios.mat.utfsm.cl](http://fosorios.mat.utfsm.cl/)
 * Email: [felipe.osorios AT usm.cl](mailto:felipe.osorios@usm.cl)
 
-Author: Felipe Osorio.
+### I contribute as developer/maintainer of the following R packages:
 
-Project webpage: http://heavy.mat.utfsm.cl
-
-Lastest binaries and sources for heavy are availables from CRAN at: https://cran.r-project.org/package=heavy
+* [L1pack](https://cran.r-project.org/package=L1pack) - Routines for L1 estimation.
+* [MVT](https://cran.r-project.org/package=MVT) - Estimation and testing for the multivariate *t*-distribution.
+* [SpatialPack](https://cran.r-project.org/package=SpatialPack) - Package for analysis of spatial data.
