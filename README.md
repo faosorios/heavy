@@ -54,9 +54,9 @@ URL: [CRAN.R-project.org/package=heavy](https://CRAN.R-project.org/package=heavy
 
 ### Some papers using heavy:
 
-* Davie, S., Minto, C., Officer, R., Lordan, C. (2015). Defining value per unit effort in mixed métier fisheries. [**Fisheries Research**](https://doi.org/10.1016/j.fishres.2014.12.007) *165*, 1-10.
-* Osorio, F. (2016). Influence diagnostics for robust P-splines using scale mixture of normal distributions. [**Annals of the Institute of Statistical Mathematics**](https://doi.org/10.1007/s10463-015-0506-0) *68*, 589-619.
-* Singer, J.M., Rocha, F.M.M., Nobre, J.S. (2016). Graphical tools for detecting departures from linear mixed model assumptions and some remedial measures. [**International Statistical Review**](https://doi.org/10.1111/insr.12178) *85*, 290-324.
+* Davie, S., Minto, C., Officer, R., Lordan, C. (2015). Defining value per unit effort in mixed métier fisheries. [*Fisheries Research*](https://doi.org/10.1016/j.fishres.2014.12.007) **165**, 1-10.
+* Osorio, F. (2016). Influence diagnostics for robust P-splines using scale mixture of normal distributions. [*Annals of the Institute of Statistical Mathematics*](https://doi.org/10.1007/s10463-015-0506-0) **68**, 589-619.
+* Singer, J.M., Rocha, F.M.M., Nobre, J.S. (2016). Graphical tools for detecting departures from linear mixed model assumptions and some remedial measures. [*International Statistical Review*](https://doi.org/10.1111/insr.12178) **85**, 290-324.
 
 Author: Felipe Osorio.
 
