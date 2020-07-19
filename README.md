@@ -18,7 +18,7 @@ The HEAVY package contains routines to perform robust estimation considering hea
 
 ## Providing Feedback
 
-Please report any bugs/suggestions/improvements to Felipe Osorio, Universidad Tecnica Federico Santa Maria. If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
+Please report any bugs/suggestions/improvements to [Felipe Osorio](mailto:felipe.osorios@usm.cl), [Universidad Tecnica Federico Santa Maria](http://www.usm.cl). If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
 
 Author: Felipe Osorio.
 
